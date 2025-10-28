@@ -13,9 +13,9 @@ elif used <= 800:
 else:
     cost = 21 + 300 * 0.06 + 200 * 0.04 + (used - 800) * 0.025
 avg_price = cost / used
-print("Предыдущее    Текущее    Использовано    К оплате    Ср. цена m^3")
 print("Предыдущее:", prev)
 print("Текущее:", curr)
 print("Использовано:", used)
 print("К оплате:", round(cost, 2))
 print("Ср. цена m^3:", round(avg_price, 2))
+
